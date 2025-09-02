@@ -1,4 +1,4 @@
-package com.systen.batch.killbatch;
+package com.system.batch.killbatch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
