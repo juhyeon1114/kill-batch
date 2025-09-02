@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class KillBatchApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KillBatchApplication.class, args);
+		System.exit(SpringApplication.exit(SpringApplication.run(KillBatchApplication.class, args)));
 	}
 
 }
