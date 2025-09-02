@@ -1,4 +1,4 @@
-package com.system.batch.killbatch.config;
+package com.system.batch.killbatch.section1;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -25,9 +25,9 @@ public class SystemTerminationConfig {
 
 	/**
 	 * - JobRepository: Job의 실행 이력, 상태, 결과 등의 메타데이터가 관리됨.
+	 * - PlatformTransactionManager: tasklet을 하나의 DB 트랜잭션으로 관리하기 위함.
 	 */
 	private final JobRepository jobRepository;
-
 	private final PlatformTransactionManager transactionManager;
 
 	/**
