@@ -20,6 +20,8 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-batch")
+	implementation("com.fasterxml.jackson.core:jackson-databind:2.20.0")
+	implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.20.0")
 	runtimeOnly("com.h2database:h2")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
