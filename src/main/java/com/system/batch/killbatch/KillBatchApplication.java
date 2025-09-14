@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"com.system.batch.killbatch.section4_1.five"})
+@ComponentScan(basePackages = {"com.system.batch.killbatch.section5_1.one"})
 @SpringBootApplication
 public class KillBatchApplication {
 
